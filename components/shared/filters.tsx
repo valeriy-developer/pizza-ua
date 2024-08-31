@@ -29,7 +29,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
 					/>
 					<Input type='number' placeholder='1000' min={100} max={1000} />
 				</div>
-				<RangeSlider min={0} max={1000} step={10} value={[0, 5000]} />
+				<RangeSlider min={0} max={1000} step={10} value={[0, 1000]} />
 			</div>
 			<CheckboxFiltersGroup
 				title='Інгредієнти'

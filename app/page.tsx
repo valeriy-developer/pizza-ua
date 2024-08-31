@@ -1,4 +1,10 @@
-import { Container, Filters, Title, TopBar } from '@/components/shared';
+import {
+	Container,
+	Filters,
+	ProductsGroupList,
+	Title,
+	TopBar,
+} from '@/components/shared';
 
 export default function Home() {
 	return (
@@ -13,7 +19,45 @@ export default function Home() {
 						<Filters />
 					</div>
 					<div className='flex-1'>
-						<div className='flex flex-col gap-16'>Список товарів</div>
+						<div className='flex flex-col gap-16'>
+							<ProductsGroupList
+								title='Піци'
+								items={[
+									{
+										id: 1,
+										name: 'Чизбургер-піца',
+										imageUrl: '/1.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 1,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 1,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 1,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+								]}
+								categoryId={1}
+							/>
+						</div>
 					</div>
 				</div>
 			</Container>
