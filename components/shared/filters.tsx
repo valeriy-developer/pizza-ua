@@ -32,7 +32,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
 				<RangeSlider min={0} max={1000} step={10} value={[0, 1000]} />
 			</div>
 			<CheckboxFiltersGroup
-				title='Інгредієнти'
+				title='Піци'
 				className='mt-5'
 				limit={6}
 				defaultItems={[

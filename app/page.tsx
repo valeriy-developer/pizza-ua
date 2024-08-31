@@ -31,7 +31,7 @@ export default function Home() {
 										items: [{ price: 220 }],
 									},
 									{
-										id: 1,
+										id: 2,
 										name: 'Чизбургер-піца',
 										imageUrl:
 											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
@@ -39,7 +39,7 @@ export default function Home() {
 										items: [{ price: 220 }],
 									},
 									{
-										id: 1,
+										id: 3,
 										name: 'Чизбургер-піца',
 										imageUrl:
 											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
@@ -47,7 +47,7 @@ export default function Home() {
 										items: [{ price: 220 }],
 									},
 									{
-										id: 1,
+										id: 4,
 										name: 'Чизбургер-піца',
 										imageUrl:
 											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
@@ -56,6 +56,80 @@ export default function Home() {
 									},
 								]}
 								categoryId={1}
+							/>
+							<ProductsGroupList
+								title='Комбо'
+								items={[
+									{
+										id: 1,
+										name: 'Чизбургер-піца',
+										imageUrl: '/1.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 2,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 3,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 4,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+								]}
+								categoryId={2}
+							/>
+							<ProductsGroupList
+								title='Закуски'
+								items={[
+									{
+										id: 1,
+										name: 'Чизбургер-піца',
+										imageUrl: '/1.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 2,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 3,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+									{
+										id: 4,
+										name: 'Чизбургер-піца',
+										imageUrl:
+											'https://assets.dots.live/misteram-public/eb7aba33-cfcc-403d-a523-097317fe1b57-826x0.png',
+										price: 220,
+										items: [{ price: 220 }],
+									},
+								]}
+								categoryId={3}
 							/>
 						</div>
 					</div>
