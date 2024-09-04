@@ -26,7 +26,7 @@ export default function Home() {
 									{
 										id: 1,
 										name: 'Чизбургер-піца',
-										imageUrl: '/1.png',
+										imageUrl: '/ingredients/nizhne-kurcha.png',
 										price: 220,
 										items: [{ price: 220 }],
 									},
@@ -63,7 +63,7 @@ export default function Home() {
 									{
 										id: 1,
 										name: 'Чизбургер-піца',
-										imageUrl: '/1.png',
+										imageUrl: '/ingredients/nizhne-kurcha.png',
 										price: 220,
 										items: [{ price: 220 }],
 									},
@@ -100,7 +100,7 @@ export default function Home() {
 									{
 										id: 1,
 										name: 'Чизбургер-піца',
-										imageUrl: '/1.png',
+										imageUrl: '/ingredients/nizhne-kurcha.png',
 										price: 220,
 										items: [{ price: 220 }],
 									},
