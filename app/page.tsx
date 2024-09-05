@@ -26,7 +26,7 @@ export default function Home() {
 									{
 										id: 1,
 										name: 'Чизбургер-піца',
-										imageUrl: '/ingredients/nizhne-kurcha.png',
+										imageUrl: '/pizzas/burger-pizza.png',
 										price: 220,
 										items: [{ price: 220 }],
 									},
@@ -58,7 +58,7 @@ export default function Home() {
 								categoryId={1}
 							/>
 							<ProductsGroupList
-								title='Комбо'
+								title='Закуски'
 								items={[
 									{
 										id: 1,
@@ -95,7 +95,7 @@ export default function Home() {
 								categoryId={2}
 							/>
 							<ProductsGroupList
-								title='Закуски'
+								title='Десерти'
 								items={[
 									{
 										id: 1,

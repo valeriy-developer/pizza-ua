@@ -65,81 +65,78 @@ export const _ingredients = [
 
 export const products = [
 	{
-		name: 'Омлет с ветчиной и грибами',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7970321044479C1D1085457A36EB.webp',
+		name: 'Додстер із шинкою',
+		imageUrl: '/appetizers/dodster-iz-shynkoyu.png',
 		categoryId: 2,
-	},
-	{
-		name: 'Омлет с пепперони',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE94ECF33B0C46BA410DEC1B1DD6F8.webp',
-		categoryId: 2,
-	},
-	{
-		name: 'Кофе Латте',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp',
-		categoryId: 2,
-	},
-	{
-		name: 'Дэнвич ветчина и сыр',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE796FF0059B799A17F57A9E64C725.webp',
-		categoryId: 3,
-	},
-	{
-		name: 'Куриные наггетсы',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D618B5C7EC29350069AE9532C6E.webp',
-		categoryId: 3,
-	},
-	{
-		name: 'Картофель из печи с соусом 🌱',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EED646A9CD324C962C6BEA78124F19.webp',
-		categoryId: 3,
 	},
 	{
 		name: 'Додстер',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE796F96D11392A2F6DD73599921B9.webp',
+		imageUrl: '/appetizers/dodster.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Картопля з печі з соусом',
+		imageUrl: '/appetizers/kartoplya-z-pechi-z-sousom.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Картопля з печі',
+		imageUrl: '/appetizers/kartoplya-z-pechi.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Курячі крила барбекю',
+		imageUrl: '/appetizers/kuryachi-kryla-barbekyu.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Курячі шматочки',
+		imageUrl: '/appetizers/kuryachi-shmatochky.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Паста карбонара',
+		imageUrl: '/appetizers/pasta-karbonara.png',
+		categoryId: 2,
+	},
+	{
+		name: "Паста м'ясна",
+		imageUrl: '/appetizers/pasta-miasna.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Паста песто',
+		imageUrl: '/appetizers/pasta-pesto.png',
+		categoryId: 2,
+	},
+	{
+		name: "Суперм'ясний додстер",
+		imageUrl: '/appetizers/supermiasnyi-dodster.png',
+		categoryId: 2,
+	},
+	{
+		name: 'Сирники з малиновим варенням',
+		imageUrl: '/deserts/syrnyky-z-malynovym-varennyam.png',
 		categoryId: 3,
 	},
 	{
-		name: 'Острый Додстер 🌶️🌶️',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE796FD3B594068F7A752DF8161D04.webp',
+		name: 'Сирники зі згущеним молоком',
+		imageUrl: '/deserts/syrnyky-zi-zghushchenym-molokom.png',
 		categoryId: 3,
 	},
 	{
-		name: 'Ирландский Капучино',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D61999EBDA59C10E216430A6093.webp',
-		categoryId: 4,
+		name: 'Сирники',
+		imageUrl: '/deserts/syrnyky.png',
+		categoryId: 3,
 	},
 	{
-		name: 'Кофе Карамельный капучино',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D61AED6B6D4BFDAD4E58D76CF56.webp',
-		categoryId: 4,
+		name: 'Маффін три шоколади',
+		imageUrl: '/deserts/maffin-try-shokolady.png',
+		categoryId: 3,
 	},
 	{
-		name: 'Кофе Кокосовый латте',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D61B19FA07090EE88B0ED347F42.webp',
-		categoryId: 4,
-	},
-	{
-		name: 'Кофе Американо',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D61B044583596548A59078BBD33.webp',
-		categoryId: 4,
-	},
-	{
-		name: 'Кофе Латте',
-		imageUrl:
-			'https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp',
-		categoryId: 4,
+		name: 'Фондан',
+		imageUrl: '/deserts/fondan.png',
+		categoryId: 3,
 	},
 ];
