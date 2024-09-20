@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Title } from './title';
 import { FilterCheckbox } from './filter-checkbox';
@@ -19,7 +19,8 @@ interface PriceProps {
 }
 
 export const Filters: React.FC<Props> = ({ className }) => {
-	const { ingredients, loading, onAddId, selectedIds } = useFilterIngredients();
+	const { ingredients, loading, onAddId, selectedIngredients } =
+		useFilterIngredients();
 	const [sizes, { toggle: toggleSizes }] = useSet(new Set<string>([]));
 	const [pizzaTypes, { toggle: togglePizzaTypes }] = useSet(
 		new Set<string>([])
@@ -41,6 +42,10 @@ export const Filters: React.FC<Props> = ({ className }) => {
 			[name]: value,
 		});
 	};
+
+	useEffect(() => {
+		console.log({ prices, pizzaTypes, sizes, selectedIngredients });
+	}, [prices, pizzaTypes, sizes, selectedIngredients]);
 
 	return (
 		<div className={cn(className)}>
@@ -107,7 +112,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
 				items={items}
 				loading={loading}
 				onClickCheckbox={onAddId}
-				selected={selectedIds}
+				selected={selectedIngredients}
 			/>
 		</div>
 	);
